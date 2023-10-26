@@ -23,4 +23,28 @@ public class Jugador {
 	public ArrayList<Jugador> obtenerJugador() {
 		throw new UnsupportedOperationException();
 	}
+
+	public String getNombre() {
+		return this.nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public String getNumero() {
+		return this.numero;
+	}
+
+	public void setNumero(String numero) {
+		this.numero = numero;
+	}
+
+	public String getPosicion() {
+		return this.posicion;
+	}
+
+	public void setPosicion(String posicion) {
+		this.posicion = posicion;
+	}
 }

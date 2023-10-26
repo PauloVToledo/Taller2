@@ -12,7 +12,7 @@ public class Seleccion {
 	private String id;
 	private Jugador jugadores = new Jugador();
 
-	public ArrayList<Jugador> obtenerArqueros(Jugador arquero) {
+	public ArrayList<Jugador> obtenerArqueros(Jugador jugador) {
 		throw new UnsupportedOperationException();
 	}
 
@@ -26,5 +26,37 @@ public class Seleccion {
 
 	public ArrayList<Seleccion> SeleccionEncontrada() {
 		throw new UnsupportedOperationException();
+	}
+
+	public String getNombre() {
+		return this.nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public String getRankingFifa() {
+		return this.rankingFifa;
+	}
+
+	public void setRankingFifa(String rankingFifa) {
+		this.rankingFifa = rankingFifa;
+	}
+
+	public String getBandera() {
+		return this.bandera;
+	}
+
+	public void setBandera(String bandera) {
+		this.bandera = bandera;
+	}
+
+	public String getId() {
+		return this.id;
+	}
+
+	public void setId(String id) {
+		this.id = id;
 	}
 }
