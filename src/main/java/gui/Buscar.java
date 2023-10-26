@@ -2,9 +2,7 @@ package gui;
 
 import javax.swing.*;
 
-public class VentanaAgregarSelección {
-    private JPanel panel1;
-    private JButton aceptarButton;
+public class Buscar {
     private JButton salirButton;
     private JTextField textField1;
     private JTextField textField2;
