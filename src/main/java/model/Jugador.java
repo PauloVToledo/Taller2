@@ -9,19 +9,25 @@ public class Jugador {
 	private Seleccion seleccion;
 
 	public Jugador() {
-		throw new UnsupportedOperationException();
+		this.nombre = nombre;
+		this.numero = numero;
+		this.posicion = posicion;
+		this.seleccion = seleccion;
 	}
 
 	public boolean agregarJugador() {
-		throw new UnsupportedOperationException();
+
+		return true;
 	}
 
-	public Jugador encontrarJugador() {
-		throw new UnsupportedOperationException();
+	public static Jugador encontrarJugador(String nombre) {
+
+		return null;
 	}
 
-	public ArrayList<Jugador> obtenerJugador() {
-		throw new UnsupportedOperationException();
+	public static ArrayList<Jugador> obtenerJugadores() {
+
+		return new ArrayList<>();
 	}
 
 	public String getNombre() {
@@ -46,5 +52,13 @@ public class Jugador {
 
 	public void setPosicion(String posicion) {
 		this.posicion = posicion;
+	}
+
+	public Seleccion getSeleccion() {
+		return this.seleccion;
+	}
+
+	public void setSeleccion(Seleccion seleccion) {
+		this.seleccion = seleccion;
 	}
 }
