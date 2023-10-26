@@ -1,6 +1,10 @@
 package model.data.dao;
 
 import model.Jugador;
+import org.jooq.DSLContext;
+import org.jooq.Table;
+
+import java.util.ArrayList;
 
 public class JugadorDAO {
 

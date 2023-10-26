@@ -1,6 +1,8 @@
 package model.data.dao;
 
 import model.Seleccion;
+import org.jooq.DSLContext;
+import org.jooq.Table;
 
 public class SeleccionDAO {
 
@@ -13,10 +15,6 @@ public class SeleccionDAO {
 	}
 
 	public Seleccion encontrarSeleccion(DSLContext query, String nombreSeleccion) {
-		throw new UnsupportedOperationException();
-	}
-
-	public ArraList<String> obtenerSelecciones() {
 		throw new UnsupportedOperationException();
 	}
 }

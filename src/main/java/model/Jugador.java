@@ -1,12 +1,14 @@
 package model;
 
+import java.util.ArrayList;
+
 public class Jugador {
 	private String nombre;
 	private String numero;
 	private String posicion;
 	private Seleccion seleccion;
 
-	public Jugador(String nombre, String numero, String posicion) {
+	public Jugador() {
 		throw new UnsupportedOperationException();
 	}
 

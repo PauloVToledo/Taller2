@@ -1,16 +1,18 @@
 package model;
 
-import model.Jugador__;
 import model.Jugador;
+import model.Jugador;
+
+import java.util.ArrayList;
 
 public class Seleccion {
 	private String nombre;
 	private String rankingFifa;
 	private String bandera;
 	private String id;
-	private Jugador__ jugadores = new Jugador[0];
+	private Jugador jugadores = new Jugador();
 
-	public ArrayList<Arquero> obtenerArqueros(Arquero arquero) {
+	public ArrayList<Jugador> obtenerArqueros(Jugador arquero) {
 		throw new UnsupportedOperationException();
 	}
 
